@@ -1,0 +1,8 @@
+{
+    "extends": ["eslint:recommended", "plugin:node/recommended"],
+    "globals": {
+        "expect": true,
+        "describe": true,
+        "it": true
+    }
+}

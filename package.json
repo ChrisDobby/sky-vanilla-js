@@ -1,0 +1,25 @@
+{
+  "name": "sky-vanilla-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jasmine redeemService-tests.js"
+  },
+  "author": "Chris Dobson",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-node": "^7.0.1",
+    "jasmine": "^3.2.0"
+  },
+  "jasmine": {
+    "spec_dir": "",
+    "spec_files": [
+      "**/*-tests.js"
+    ],
+    "helpers": [
+      "helpers/**/*.js"
+    ],
+    "stopSpecOnExpectationFailure": false,
+    "random": true
+  }
+}
